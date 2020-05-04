@@ -1,14 +1,4 @@
-/*
- * jQuery FlexSlider v2.0
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- */
-/* Browser Resets */
+
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -28,14 +18,8 @@
 html[xmlns] .slides {display: block;} 
 * html .slides {height: 1%;}
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
 .no-js .slides > li:first-child {display: block;}
 
-
-/* FlexSlider Default Theme
-*********************************/
 .flexslider {
 	border: 0px;
 	position: relative;

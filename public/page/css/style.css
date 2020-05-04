@@ -172,7 +172,7 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .profile_details_drop a {
     display: block;
-	padding-top:1em;
+	padding-top:0.3em;
 	font-size:1em;
 	color:#fff;
 }

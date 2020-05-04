@@ -7,25 +7,25 @@
 					<ul class="slides">
 						<li>
 							<div class="w3l_banner_nav_right_banner">
-								<h3>Make your <span>food</span> with Spicy.</h3>
+							<h3>Đam Mê Ẩm Thực <span>Tích Cực</span> Giảm Cân.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="w3l_banner_nav_right_banner1">
-								<h3>Make your <span>food</span> with Spicy.</h3>
+								<h3>Có Công Ăn Uống <span>Có Ngày</span> Lên Cân.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="w3l_banner_nav_right_banner2">
-								<h3>upto <i>50%</i> off.</h3>
+								<h3>Khuyến Mãi Lên Đến<i>50%</i> off.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
@@ -58,7 +58,7 @@
 					<div class="wthree_banner_bottom_left_grid">
 						<img src="{{asset('public/page/images/4.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_banner_bottom_left_grid_pos">
-							<h4>Discount Offer <span>25%</span></h4>
+							<h4>Giảm Giá <span>25%</span></h4>
 						</div>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 					<div class="wthree_banner_bottom_left_grid">
 						<img src="{{asset('public/page/images/5.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_banner_btm_pos">
-							<h3>introducing <span>best store</span> for <i>groceries</i></h3>
+							<h3>Giới Thiệu <span>best store</span> for <i>groceries</i></h3>
 						</div>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 					<div class="wthree_banner_bottom_left_grid">
 						<img src="{{asset('public/page/images/6.jpg')}}" alt=" " class="img-responsive" />
 						<div class="wthree_banner_btm_pos1">
-							<h3>Save <span>Upto</span> $10</h3>
+							<h3>Khuyến Mãi <span>Đến</span> $10</h3>
 						</div>
 					</div>
 				</div>
@@ -85,7 +85,7 @@
 <!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
-			<h3>Ưu đãi hấp dẫn</h3>
+			<h3>ƯU ĐÃI</h3>
 			<div class="agile_top_brands_grids">
 				<div class="col-md-3 top_brand_left">
 					<div class="hover14 column">
@@ -111,7 +111,7 @@
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Add to cart" class="button" />
+													<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button" />
 												</fieldset>
 													
 											</form>
@@ -146,7 +146,7 @@
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Add to cart" class="button" />
+													<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button" />
 												</fieldset>
 											</form>
 										</div>
@@ -182,7 +182,7 @@
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Add to cart" class="button" />
+													<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button" />
 												</fieldset>
 											</form>
 										</div>
@@ -218,7 +218,7 @@
 													<input type="hidden" name="currency_code" value="USD" />
 													<input type="hidden" name="return" value=" " />
 													<input type="hidden" name="cancel_return" value=" " />
-													<input type="submit" name="submit" value="Add to cart" class="button" />
+													<input type="submit" name="submit" value="Thêm Vào Giỏ Hàng" class="button" />
 												</fieldset>
 											</form>
 										</div>
@@ -249,8 +249,8 @@
 							<li><i class="fa fa-check" aria-hidden="true"></i><a href="bread.html">Tiệm bánh mì</a></li>
 							<li><i class="fa fa-check" aria-hidden="true"></i><a href="household.html">Làm sạch</a></li>
 							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Gia vị</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Trái cây khô</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Sản phẩm sữa</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Trái cây sấy khô</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Sữa</a></li>
 						</ul>
 					</div>
 				</div>
