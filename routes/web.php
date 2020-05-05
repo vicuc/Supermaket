@@ -63,11 +63,11 @@ Route::get('/2', function () {
 // tài khoản
 Route::post('/tim-kiem','TimkiemController@post_search');
  
-Route::post('/dang-ky','TaikhoanController@post_reg');
+Route::post('/dang-ky','TaikhoanController@post_reg')->name('reg22');
 
 Route::get('/dang-nhap','TaikhoanController@login_reg')->name('login');
 
-Route::post('/dang-nhap','TaikhoanController@post_lg');
+Route::post('/dang-nhap','TaikhoanController@post_lg')->name('log1');
 
 	Route::get('/dang-xuat','TaikhoanController@logout')->name('logout');
 

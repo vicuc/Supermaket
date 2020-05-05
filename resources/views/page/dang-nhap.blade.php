@@ -45,7 +45,7 @@
 			  </div>
 			  <div class="form">
 				<h2>Đăng nhập</h2> 
-				<form action="/dang-nhap" method="POST"> {{csrf_field()}} 
+				<form action="{{ route('log12') }}" method="POST"> {{csrf_field()}} 
 				  <input type="text" name="username" placeholder="Tên đăng nhập" >
 				  <input type="password" name="password" placeholder="Password" >
 				  <input type="submit" value="Đăng nhập">
@@ -53,7 +53,7 @@
 			  </div>
 			  <div class="form">
 				<h2>Tạo tài khoản</h2>
-				<form action="/dang-ky" method="POST"> {{ csrf_field() }}
+				<form action="{{route('reg22')}}" method="POST"> {{ csrf_field() }}
 				   <input type="text" name="username" placeholder="Tên đăng nhập" >
 				   <input type="password" name="password" placeholder="Mật khẩu" >
 				   <input type="password" name="passwordAgain" placeholder="Nhập lại mật khẩu" >
