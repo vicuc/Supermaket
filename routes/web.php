@@ -61,7 +61,7 @@ Route::get('/2', function () {
 });
 
 // tài khoản
-Route::post('/tim-kiem','TimkiemController@post_search');
+Route::post('/tim-kiem','TimkiemController@post_search')->name('timkiem');
  
 Route::post('/dang-ky','TaikhoanController@post_reg')->name('reg22');
 
@@ -91,8 +91,8 @@ Route::group(['prefix'=>'tai-khoan','middleware'=>'Page_login'],function(){
 
 
 // page
-Route::get('/','PageController@home')->name('page1');
-Route::get('/trang-chu','PageController@home');
+Route::get('/','PageController@home');
+Route::get('/trang-chu','PageController@home')->name('page.home');
 
 Route::group(['prefix' => 'gio-hang'],function(){
 	Route::get('/','GiohangController@showcart');
@@ -191,10 +191,10 @@ Route::group(['prefix'=>'admin','middleware'=>'Ad_login'],function(){
 		Route::get('them-hang-hoa','HanghoaController@get_add')->name('sp2');
 		Route::post('them-hang-hoa','HanghoaController@post_add')->name('sp3');
 
-		Route::get('sua-hang-hoa-{id}.html','HanghoaController@get_edit');
-		Route::post('sua-hang-hoa-{id}.html','HanghoaController@post_edit');
+		Route::get('sua-hang-hoa-{id}.html','HanghoaController@get_edit')->name('sp4');
+		Route::post('sua-hang-hoa-{id}.html','HanghoaController@post_edit')->name('sp5');
 
-		Route::get('xoa-hang-hoa-{id}.html','HanghoaController@del');
+		Route::get('xoa-hang-hoa-{id}.html','HanghoaController@del')->name('sp6');
 
 	});
 
@@ -204,10 +204,10 @@ Route::group(['prefix'=>'admin','middleware'=>'Ad_login'],function(){
 
 		Route::post('them-nhom-hang-hoa','NhomsanphamController@post_add')->name('nhh3');
 
-		Route::get('sua-nhom-hang-hoa-{id}.html','NhomsanphamController@get_edit');
-		Route::post('sua-nhom-hang-hoa-{id}.html','NhomsanphamController@post_edit');
+		Route::get('sua-nhom-hang-hoa-{id}.html','NhomsanphamController@get_edit')->name('nhh4');
+		Route::post('sua-nhom-hang-hoa-{id}.html','NhomsanphamController@post_edit')->name('nhh5');
 
-		Route::get('xoa-nhom-hang-hoa-{id}.html','NhomsanphamController@del');
+		Route::get('xoa-nhom-hang-hoa-{id}.html','NhomsanphamController@del')->name('nhh6');
 
 
 
@@ -225,9 +225,6 @@ Route::group(['prefix'=>'admin','middleware'=>'Ad_login'],function(){
 		Route::get('/huy-don-{id}','DonhangController@Cancle')->name('dh6');
 
 
-
-		
-
 	});
 
 
@@ -237,28 +234,14 @@ Route::group(['prefix'=>'admin','middleware'=>'Ad_login'],function(){
 
 	});
 
-	Route::group(['prefix'=>'khuyen-mai'],function(){
-		Route::get('/','KhuyenmaiController@list')->name('km1');
-		Route::get('them-khuyen-mai.html','KhuyenmaiController@get_add')->name('km2');
+	//Route::group(['prefix'=>'khuyen-mai'],function(){
+		//Route::get('/','KhuyenmaiController@list')->name('km1');
+		//Route::get('them-khuyen-mai.html','KhuyenmaiController@get_add')->name('km2');
 
-		Route::group(['prefix'=>'voucher'],function(){
-			Route::get('/','KhuyenmaiController@list')->name('vc1');
-			Route::get('them-them-voucher.html','KhuyenmaiController@get_add')->name('vc2');
-		});
-
-	});
-
-
-
-
+		//Route::group(['prefix'=>'voucher'],function(){
+			//Route::get('/','KhuyenmaiController@list')->name('vc1');
+			//Route::get('them-them-voucher.html','KhuyenmaiController@get_add')->name('vc2');
+		//});
+	//Route::get('/manage-banner','BannerController@manage-banner');
+	
 });
-
-
-
-
-
-
-
-
-
-

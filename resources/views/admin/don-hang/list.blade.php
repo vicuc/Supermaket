@@ -8,7 +8,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <!-- DATA TABLE -->
-                                <h3 class="title-5 m-b-35">Nhóm hàng hóa</h3>
+                                <h3 class="title-5 m-b-35">Đơn Hàng</h3>
                                 <div class="table-data__tool">
 
                                     <!-- ///// -->
@@ -16,10 +16,7 @@
                                     </div>
                                     <!-- /// -->
 
-                                    <div class="table-data__tool-right">
-                                        <a href="{{Route('nhh2')}}" class="au-btn au-btn-icon au-btn--blue au-btn--small" >
-                                            <i class="zmdi zmdi-plus" ></i>Thêm</button>
-                                        </a>
+                                    
                                     </div>
                                 </div>
                                 <div class="table-responsive table-responsive-data2">
@@ -32,7 +29,7 @@
                                                 <th>Trạng thái</th>
 
                                                 <th>Ngày đặt</th>
-                                                <th >Action</th>
+                                                <th >Tình trạng</th>
                                                 <th></th>
                                             </tr>
                                         </thead>

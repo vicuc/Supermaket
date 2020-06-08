@@ -76,10 +76,10 @@
                                                     <div class="table-data-feature"  >
                                                         
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Edit" >
-                                                            <a href="/admin/danh-sach-hang-hoa/sua-hang-hoa-{{$hh->id}}.html"><i class="zmdi zmdi-edit"></i></a>
+                                                            <a href="{{route('sp4',['id' => $hh->id])}}"><i class="zmdi zmdi-edit"></i></a>
                                                         </button>
                                                         <button style="margin-left: 10px;" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                            <a href="/admin/danh-sach-hang-hoa/xoa-hang-hoa-{{$hh->id}}.html"><i class="zmdi zmdi-delete"></i></a>
+                                                            <a href="{{route('sp6',['id' => $hh->id])}}"><i class="zmdi zmdi-delete"></i></a>
                                                         </button>
                                                         
                                                 </td>

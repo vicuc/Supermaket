@@ -1,6 +1,7 @@
 @extends('page.layout')
 @section('tieude','Trang chủ')
 @section('page_content')
+<div class="fb-like" data-href="http://localhost/atozshop/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
 		<div class="w3l_banner_nav_right">
 			<section class="slider">
 				<div class="flexslider">
@@ -9,7 +10,7 @@
 							<div class="w3l_banner_nav_right_banner">
 							<h3>Đam Mê Ẩm Thực <span>Tích Cực</span> Giảm Cân.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
+									<a href="{{URL::to('/gio-hang')}}" class="button--saqui button--round-l button--text-thick" data-text="Đặt Hàng">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
@@ -17,7 +18,7 @@
 							<div class="w3l_banner_nav_right_banner1">
 								<h3>Có Công Ăn Uống <span>Có Ngày</span> Lên Cân.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
+									<a href="{{URL::to('/gio-hang')}}" class="button--saqui button--round-l button--text-thick" data-text="Đặt Hàng">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
@@ -25,7 +26,7 @@
 							<div class="w3l_banner_nav_right_banner2">
 								<h3>Khuyến Mãi Lên Đến<i>50%</i> off.</h3>
 								<div class="more">
-									<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Đặt Hàng</a>
+									<a href="{{URL::to('/gio-hang')}}" class="button--saqui button--round-l button--text-thick" data-text="Đặt Hàng">Đặt Hàng</a>
 								</div>
 							</div>
 						</li>
@@ -241,16 +242,16 @@
 				<div class="col-md-3 w3l_fresh_vegetables_grid w3l_fresh_vegetables_grid_left">
 					<div class="w3l_fresh_vegetables_grid2">
 						<ul>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Tất cả sản phẩm</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="vegetables.html">Rau củ</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="vegetables.html">Trái cây</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="drinks.html">Nước ép</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="pet.html">Thức ăn thú cưng</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="bread.html">Tiệm bánh mì</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="household.html">Làm sạch</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{Route('gg1')}}">Tất cả sản phẩm</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{Route('page2')}}">Rau củ</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{route('page3')}}">Trái cây</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{Route('page5')}}">Nước ép</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{Route('page7')}}">Thức ăn thú cưng</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="{{Route('page8')}}">Tiệm bánh mì</a></li>
+						<!--	<li><i class="fa fa-check" aria-hidden="true"></i><a href="household.html">Làm sạch</a></li>
 							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Gia vị</a></li>
 							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Trái cây sấy khô</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Sữa</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Sữa</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -266,7 +267,7 @@
 								<img src="{{asset('public/page/images/7.jpg')}}" alt=" " class="img-responsive" />
 								<div class="w3l_fresh_vegetables_grid1_rel_pos">
 									<div class="more m1">
-										<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
+										<a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Đặt Hàng">Đặt Hàng</a>
 									</div>
 								</div>
 							</div>
@@ -295,11 +296,13 @@
 							<span> </span>
 						</div>
 						<div class="clearfix"></div>
+						<div class="fb-comments" data-href="http://localhost/atozshop/" data-numposts="20" data-width=""></div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
+
 	</div>
 <!-- //fresh-vegetables -->
 @endsection

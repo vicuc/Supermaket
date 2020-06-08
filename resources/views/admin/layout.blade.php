@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
+    <meta name="author" content="Nguyen Chuong">
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
@@ -75,17 +75,21 @@
                                 <i class="fas fa-desktop"></i>Trang chủ</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="#">Banner</a>
                                 </li>
-
                                 
                             </ul>
                         </li>
-
                         <li>
                             <a href="{{Route('us1')}}">
                                 <i class="fas fa-group"></i>Users</a>
                         </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow" href="{{URL::to('/manage-banner')}}">
+                                <i class="fa fa-book"></i>Banner</a>
+                                <li> 
+                                </li>
+
 
                         <li class="has-sub">
                             <a class="js-arrow" href="#">

@@ -45,7 +45,7 @@
 			  </div>
 			  <div class="form">
 				<h2>Đăng nhập</h2> 
-				<form action="{{ route('log12') }}" method="POST"> {{csrf_field()}} 
+				<form action="{{ route('log1') }}" method="POST"> {{csrf_field()}} 
 				  <input type="text" name="username" placeholder="Tên đăng nhập" >
 				  <input type="password" name="password" placeholder="Password" >
 				  <input type="submit" value="Đăng nhập">

@@ -52,10 +52,10 @@
                                                     <div class="table-data-feature"  >
                                                         
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Edit" >
-                                                            <a href="/admin/danh-sach-nhom-hang-hoa/sua-nhom-hang-hoa-{{$nhh->id}}.html"><i class="zmdi zmdi-edit"></i></a>
+                                                            <a href="{{route('nhh4',['id' => $nhh->id])}}"><i class="zmdi zmdi-edit"></i></a>
                                                         </button>
                                                         <button style="margin-left: 10px;" class="item" data-toggle="tooltip" data-placement="top" title="Delete">
-                                                            <a href="/admin/danh-sach-nhom-hang-hoa/xoa-nhom-hang-hoa-{{$nhh->id}}.html"><i class="zmdi zmdi-delete"></i></a>
+                                                            <a href="{{route('nhh6',['id' => $nhh->id])}}"><i class="zmdi zmdi-delete"></i></a>
                                                         </button>
                                                         
                                                 </td>

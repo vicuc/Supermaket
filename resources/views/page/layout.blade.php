@@ -9,7 +9,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <head>
 	<title>@yield('tieude')</title>
+
 	<!-- for-mobile-apps -->
+
+	 {{--   <meta property="og:image" content="{{$image_og}}" />  
+      <meta property="og:site_name" content="http://localhost/atozshop/" />
+      <meta property="og:description" content="{{$meta_desc}}" />
+      <meta property="og:title" content="{{$meta_title}}" />
+      <meta property="og:url" content="{{$url_canonical}}" />
+      <meta property="og:type" content="website" /> --}}
+	
+	<!-- seo  -->
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="{{asset('public/page/favicon6.ico')}}" type="image/x-icon">
@@ -70,7 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="agileits_header" style="padding: 6px;">
 		<div class="container" style="display: flex">
 			<div style="flex-grow: 1">
-				<form style="max-width: 320px; display: flex;" action="/tim-kiem" method="POST"> {{ csrf_field() }}
+				<form style="max-width: 320px; display: flex;" action="{{route('timkiem')}}" method="POST"> {{ csrf_field() }}
 					<input type="search" name="tukhoa" class="form-control" placeholder="Seach....." required="" />
 					<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
 				</form>
@@ -100,8 +111,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="mega-dropdown-menu">
 							<div class="w3ls_vegetables">
 								<ul class="dropdown-menu drp-mnu">
-									<li><a href="/dang-nhap">Đăng nhập</a></li>
-									<li><a href="/dang-nhap">Đăng ký</a></li>
+									<li><a href="{{route('login')}}">Đăng nhập</a></li>
+									<li><a href="{{route('login')}}">Đăng ký</a></li>
 								</ul>
 
 							</div>
@@ -132,7 +143,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 		<div class="container">
 			<div class="w3ls_logo_products_left">
-				<h1><a href="/"><span style="color: #03a9f4">VI CUC</span> SUPERMAKET</a></h1>
+				<h1><a href="{{route('page.home')}}"><span style="color: #03a9f4"></span> SUPERMAKET</a></h1>
 			</div>
 			<div class="w3ls_logo_products_left1">
 				<ul class="special_items">
@@ -144,8 +155,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>(034) 231 1010</li> &nbsp&nbsp
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">vicuc@gmail.com</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>0123456789</li> &nbsp&nbsp
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@grocery.com">abc@gmail.com</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -291,7 +302,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</script>
 			<!-- //here ends scrolling icon -->
 
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0"></script>
 
 </body>
 

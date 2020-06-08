@@ -6,7 +6,7 @@
 	<div class="products-breadcrumb">
 		<div class="container">
 			<ul>
-				<li><i class="fa fa-home" aria-hidden="true"></i><a href="/">Home</a><span>|</span></li>
+				<li><i class="fa fa-home" aria-hidden="true"></i><a href="{{URL::to('/gio-hang')}}"></a><span>|</span></li>
 				<li>Giỏ hàng</li>
 			</ul>
 		</div>
@@ -76,7 +76,7 @@
 		<div class="w3l_banner_nav_right">
 <!-- about -->
 		<div class="privacy about">
-			<h3>Chec<span>kout</span></h3>
+			<h3>Thanh<span>Toán</span></h3>
 			
 	      <div class="checkout-right">
 					<h4>Your shopping cart contains: <span>3 Products</span></h4>

@@ -10,7 +10,7 @@
 
 
                             <div class="col-lg-12">
-                            <form action="/admin/danh-sach-nhom-hang-hoa/them-nhom-hang-hoa" id="form_validation" method="POST" >
+                            <form action="{{ route('nhh3')}}" id="form_validation" method="POST" >
                                 {{csrf_field() }}
                                 <div class="card">
                                     <div class="card-header">

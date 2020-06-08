@@ -10,7 +10,7 @@
 
 
                             <div class="col-lg-12">
-                             <form action="/admin/danh-sach-hang-hoa/them-hang-hoa" id="form_validation" method="POST" enctype="multipart/form-data">
+                             <form action="{{ route('sp3')}}" id="form_validation" method="POST" enctype="multipart/form-data">
                                 {{csrf_field() }}
                                 <div class="card">
                                     <div class="card-header">

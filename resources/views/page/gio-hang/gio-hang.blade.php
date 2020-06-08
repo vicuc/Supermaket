@@ -134,7 +134,7 @@
 					                                
 					                                	<input name="phone_order" class="form-control" type="text" @if(Auth::check())
 					                                	value="0{{Auth::user()->phone}}"
-					                                	@endif placeholder="vd: 0762999994">
+					                                	@endif placeholder="vd: 0123456789">
 					                                
 					                               		
 					                                
@@ -143,7 +143,7 @@
 					                        <div class="w3_agileits_card_number_grid_right">
 					                            <div class="controls">
 					                                <label class="control-label">Địa chỉ giao hàng: </label>
-					                                <textarea name="diachi" class="form-control" type="text"  placeholder="vd: Đại học cần thơ" ></textarea>
+					                                <textarea name="diachi" class="form-control" type="text"  placeholder="vd: KTX khu B Đại học Cần Thơ" ></textarea>
 					                            </div>
 					                        </div>
 					                        <div class="clear"> </div>
@@ -155,6 +155,7 @@
 					                    <div class="controls">
 					                        <label class="control-label">Phương thức thanh toán: </label>
 					                        <input class="form-control" placeholder="Thanh toán khi nhận hàng" disabled="">
+											<input class="form-control" placeholder="Thanh toán bằng thẻ tín dụng" disabled="">
 					                    </div>
 
 					                    

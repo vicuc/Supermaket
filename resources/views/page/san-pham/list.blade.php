@@ -3,6 +3,7 @@
 @section('page_content')
 <!-- products-breadcrumb -->
 @section('header_small')
+
 	<div class="products-breadcrumb">
 		<div class="container">
 			<ul>
@@ -12,6 +13,7 @@
 		</div>
 	</div>
 @endsection
+
 	<div class="banner">
 
 		<div class="w3l_banner_nav_right">
@@ -65,5 +67,6 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
+		
 	</div>
 @endsection

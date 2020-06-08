@@ -74,6 +74,7 @@
 						{{ $traicay->links() }}
 					</nav>
 				</div>
+				
 
 
 

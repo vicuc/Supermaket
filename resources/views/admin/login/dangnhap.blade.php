@@ -10,7 +10,7 @@
 			<input type="text" class="ggg" name="username" placeholder="Tài khoản đăng nhập" required="">
 			<input type="password" class="ggg" name="password" placeholder="Mật khẩu" required="">
 			<span><input type="checkbox" />Nhớ tên đăng nhập</span>
-			<h6><a href="#">Quên mật khẩu</a></h6>
+			<h6><a href="{{Route('login2')}}">Quên mật khẩu</a></h6>
 				<div class="clearfix"></div>
 				<input type="submit" value="Đăng nhập" name="login">
 		</form>
