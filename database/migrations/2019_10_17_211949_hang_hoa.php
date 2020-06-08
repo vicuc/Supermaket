@@ -19,7 +19,6 @@ class HangHoa extends Migration
             $table->string('ten_hh');
             $table->integer('gia_hh');
             $table->integer('gia_km')->nullable();
-            $table->integer('soluong_hang');
             $table->integer('soluong_hang')->nullable();
             $table->integer('trong_luong')->nullable();
 
