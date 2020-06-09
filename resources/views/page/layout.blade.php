@@ -9,6 +9,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <head>
 	<title>@yield('tieude')</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151116661-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151116661-4');
+</script>
 
 	<!-- for-mobile-apps -->
 
